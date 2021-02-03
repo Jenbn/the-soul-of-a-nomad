@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="desciption" content="Vegetarian Women Community">
+    <meta name="keywords" name="vegetarian,woman, traveller, solo-traveller, vegetarian-traveller, vegan-traveller">
+    <title>Vegetarian Women Community</title>
+    <style>
+        #main-header{
+            text-align: center;
+            background-color: pink; 
+			color: black; 
+			padding: 10px; 
+		}
+
+		#main-footer{
+			font-size: 18px;
+            position: absolute;
+            bottom: 0;
+            
+		}
+
+        #community-description{
+            text-align: center;
+            
+        }
+
+        #personal-data{
+            text-align: center;
+        
+        }
+
+        #username{
+            text-align: center;
+        }
+            
+    </style>
+</head>
+<body>
+    <header id="main-header">
+        <h1>Vegetarian Women Community</h1>
+    </header>
+    
+    <section class="description" id="community-description">
+        <p>If you are a vegetarian/vegan woman who loves to travel and wants to be part of a community of like-minded people, then fill in the below form and submit it</p>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section class="personal data" id="personal-data">
+        <label for="name"> Name: </label>
+        <input id="name" type="text" name="name" required> 
+    
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="email" placeholder="something@something.com" required>
+
+        <label for="dob">Date of Birth</label>
+        <input id="dob" type="date" name="dob" required>
+    </section>
+    <br>
+    <br>
+    <section class="username" id="username">
+        <form method="GET" action="submission.html"></form>
+        <label for="username">Username:</label>
+        <input id="username" type="text" name="username" minlength="6" maxlength="8" pattern="[a-zA-Z0-9]+">
+
+        <label for="password">Password:</label>
+        <input id="password" type="password" name="password" pattern="[a-zA-Z0-9]{6,8}">
+        <br>    
+        <br>
+        <input type="submit" value="Submit">
+    </section>
+
+</body>
+<footer id="main-footer">
+    <p><small>&copy;2021 Vegetarian Women Community - Contact info: veggicommunity@kl.com</small></p>
+</footer>
+</html>
